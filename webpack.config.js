@@ -8,9 +8,12 @@ module.exports = {
 
   entry: {
     'angular2': [
+      'zone.js',
       'rxjs',
       'reflect-metadata',
-      '@angular/core'
+      '@angular/core',
+      '@angular/common',
+      '@angular/platform-browser-dynamic'
     ],
     'app': './app/app'
   },
